@@ -1,0 +1,15 @@
+PODS:
+  - AFDateHelper (4.1.1)
+  - CrittercismSDK (5.6.7)
+
+DEPENDENCIES:
+  - AFDateHelper
+  - CrittercismSDK
+
+SPEC CHECKSUMS:
+  AFDateHelper: fca1de526b61ab4d5e6d0a17bcd0569d5d9dfd88
+  CrittercismSDK: 54d27268be8377b6d64ed61d80f43178b32f2fea
+
+PODFILE CHECKSUM: 8900d268afc9fb56c1bab7f287a3c12dbb5735a7
+
+COCOAPODS: 1.1.1
