@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDA7E1431E83C0030095AD65"
-               BuildableName = "CustomCollectionView.app"
-               BlueprintName = "CustomCollectionView"
-               ReferencedContainer = "container:CustomCollectionView.xcodeproj">
+               BlueprintIdentifier = "CD8BCABF1E8A7FDC0098C145"
+               BuildableName = "PrivatePod.app"
+               BlueprintName = "PrivatePod"
+               ReferencedContainer = "container:PrivatePod.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDA7E1571E83C0030095AD65"
-               BuildableName = "CustomCollectionViewTests.xctest"
-               BlueprintName = "CustomCollectionViewTests"
-               ReferencedContainer = "container:CustomCollectionView.xcodeproj">
+               BlueprintIdentifier = "CD8BCAD31E8A7FDC0098C145"
+               BuildableName = "PrivatePodTests.xctest"
+               BlueprintName = "PrivatePodTests"
+               ReferencedContainer = "container:PrivatePod.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDA7E1431E83C0030095AD65"
-            BuildableName = "CustomCollectionView.app"
-            BlueprintName = "CustomCollectionView"
-            ReferencedContainer = "container:CustomCollectionView.xcodeproj">
+            BlueprintIdentifier = "CD8BCABF1E8A7FDC0098C145"
+            BuildableName = "PrivatePod.app"
+            BlueprintName = "PrivatePod"
+            ReferencedContainer = "container:PrivatePod.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDA7E1431E83C0030095AD65"
-            BuildableName = "CustomCollectionView.app"
-            BlueprintName = "CustomCollectionView"
-            ReferencedContainer = "container:CustomCollectionView.xcodeproj">
+            BlueprintIdentifier = "CD8BCABF1E8A7FDC0098C145"
+            BuildableName = "PrivatePod.app"
+            BlueprintName = "PrivatePod"
+            ReferencedContainer = "container:PrivatePod.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CDA7E1431E83C0030095AD65"
-            BuildableName = "CustomCollectionView.app"
-            BlueprintName = "CustomCollectionView"
-            ReferencedContainer = "container:CustomCollectionView.xcodeproj">
+            BlueprintIdentifier = "CD8BCABF1E8A7FDC0098C145"
+            BuildableName = "PrivatePod.app"
+            BlueprintName = "PrivatePod"
+            ReferencedContainer = "container:PrivatePod.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

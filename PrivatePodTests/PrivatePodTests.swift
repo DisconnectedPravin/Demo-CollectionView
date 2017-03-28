@@ -1,15 +1,15 @@
 //
-//  CustomCollectionViewTests.swift
-//  CustomCollectionViewTests
+//  PrivatePodTests.swift
+//  PrivatePodTests
 //
-//  Created by Domalwar, Pravin on 23/03/17.
+//  Created by Domalwar, Pravin on 28/03/17.
 //  Copyright © 2017 Domalwar, Pravin. All rights reserved.
 //
 
 import XCTest
-@testable import CustomCollectionView
+@testable import PrivatePod
 
-class CustomCollectionViewTests: XCTestCase {
+class PrivatePodTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

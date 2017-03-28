@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CustomCollectionView.xcscheme</key>
+		<key>PrivatePod.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CDA7E1431E83C0030095AD65</key>
+		<key>CD8BCABF1E8A7FDC0098C145</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CDA7E1571E83C0030095AD65</key>
+		<key>CD8BCAD31E8A7FDC0098C145</key>
 		<dict>
 			<key>primary</key>
 			<true/>

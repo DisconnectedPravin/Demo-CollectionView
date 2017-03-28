@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Event Type View Controller-->
+        <scene sceneID="35W-vu-e2u">
+            <objects>
+                <viewController storyboardIdentifier="EventTypeSB" id="ts6-3U-yZS" customClass="EventTypeViewController" customModule="CustomCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hgE-w4-vAv"/>
+                        <viewControllerLayoutGuide type="bottom" id="TKq-gw-3AU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qc2-WB-mc7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MbT-xw-2lD" customClass="CascadeCollectionView" customModule="CustomCollectionView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="0.0" width="343" height="587"/>
+                                <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YcA-zW-fBn">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cascadeHeaderCellIdentifier" id="4MP-Wh-2MB" customClass="HeaderCollectionViewCell" customModule="CustomCollectionView" customModuleProvider="target">
+                                        <rect key="frame" x="1" y="0.0" width="342" height="226"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="226"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHEN DOES YOUR EVENT START?" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJP-or-ixf">
+                                                    <rect key="frame" x="8" y="56" width="326" height="162"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="43"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csH-ts-Oyg">
+                                                    <rect key="frame" x="8" y="8" width="40" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="vfF-Gx-Se9"/>
+                                                        <constraint firstAttribute="width" constant="40" id="vgr-Z7-GIj"/>
+                                                    </constraints>
+                                                    <state key="normal" image="BackButton"/>
+                                                    <connections>
+                                                        <action selector="backButtonPressed:" destination="ts6-3U-yZS" eventType="touchUpInside" id="a5W-gK-6D4"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3m2-eJ-Fgv">
+                                                    <rect key="frame" x="283" y="8" width="40" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="16j-JK-sav"/>
+                                                        <constraint firstAttribute="width" constant="40" id="vCW-OI-bf9"/>
+                                                    </constraints>
+                                                    <state key="normal" image="CloseButton"/>
+                                                    <connections>
+                                                        <action selector="confirmButtonPressed:" destination="ts6-3U-yZS" eventType="touchUpInside" id="d42-uU-ns1"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailingMargin" secondItem="3m2-eJ-Fgv" secondAttribute="trailing" constant="11" id="0ua-lo-dy4"/>
+                                            <constraint firstAttribute="leadingMargin" secondItem="csH-ts-Oyg" secondAttribute="leading" id="DHi-V2-i45"/>
+                                            <constraint firstItem="OJP-or-ixf" firstAttribute="top" secondItem="csH-ts-Oyg" secondAttribute="bottom" constant="18" id="Eu4-Re-xb6"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="OJP-or-ixf" secondAttribute="bottom" id="GU6-6q-7js"/>
+                                            <constraint firstAttribute="topMargin" secondItem="3m2-eJ-Fgv" secondAttribute="top" id="Mfe-sc-Yav"/>
+                                            <constraint firstAttribute="topMargin" secondItem="csH-ts-Oyg" secondAttribute="top" id="cmE-j0-W41"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="OJP-or-ixf" secondAttribute="trailing" id="kOD-ZD-S34"/>
+                                            <constraint firstAttribute="leadingMargin" secondItem="OJP-or-ixf" secondAttribute="leading" id="tLB-FB-sqs"/>
+                                        </constraints>
+                                        <size key="customSize" width="342" height="226"/>
+                                        <connections>
+                                            <outlet property="cellTitleLbl" destination="OJP-or-ixf" id="V0K-IG-jZ6"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="ts6-3U-yZS" id="IB4-XP-Ii7"/>
+                                    <outlet property="delegate" destination="ts6-3U-yZS" id="wjP-Uy-p3A"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta1-qs-jJp">
+                                <rect key="frame" x="-14" y="597" width="403" height="70"/>
+                                <color key="backgroundColor" red="0.23641200100000001" green="0.3456488305" blue="0.95049971339999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="dmg-p1-VhV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="24"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ta1-qs-jJp" firstAttribute="leading" secondItem="qc2-WB-mc7" secondAttribute="leadingMargin" constant="-30" id="F5h-iY-DQW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MbT-xw-2lD" secondAttribute="trailing" id="PnQ-37-pDm"/>
+                            <constraint firstItem="Ta1-qs-jJp" firstAttribute="top" secondItem="MbT-xw-2lD" secondAttribute="bottom" constant="10" id="Vxk-5h-viN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ta1-qs-jJp" secondAttribute="trailing" constant="-30" id="Xy9-LJ-P0t"/>
+                            <constraint firstItem="MbT-xw-2lD" firstAttribute="leading" secondItem="qc2-WB-mc7" secondAttribute="leadingMargin" id="jAe-Fs-73y"/>
+                            <constraint firstItem="TKq-gw-3AU" firstAttribute="top" secondItem="Ta1-qs-jJp" secondAttribute="bottom" id="mVF-Gx-LeS"/>
+                            <constraint firstItem="MbT-xw-2lD" firstAttribute="top" secondItem="hgE-w4-vAv" secondAttribute="bottom" constant="-20" id="xN3-cN-RU6"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="mainCollectionView" destination="MbT-xw-2lD" id="9Kd-fb-5sm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Klr-QL-k0V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372" y="240.62968515742131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackButton" width="39" height="30"/>
+        <image name="CloseButton" width="40" height="40"/>
+    </resources>
+</document>
