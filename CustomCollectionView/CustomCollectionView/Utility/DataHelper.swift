@@ -7,29 +7,13 @@
 //
 
 import Foundation
-import AFDateHelper
-
 
 class EventBookingDataHelper {
     
     class func getTimeArraybasedOn(date:Date)-> [String]{
         
         var timeArray = [String]()
-        
-        if date.compare(.isToday) {
-            // Check what time is it of today and give necessary options
-            let hour = Calendar.current.component(.hour, from: Date())
-            if hour <= 7 {
-                timeArray = morningTimeSlot + afternoonTimeSlot + eveningTimeSlot
-            } else if hour <= 10  {
-                timeArray = afternoonTimeSlot + eveningTimeSlot
-            } else if hour <= 16 {
-                timeArray = eveningTimeSlot
-            }
-        } else {
-            timeArray = morningTimeSlot + afternoonTimeSlot + eveningTimeSlot
-        }
-        
+        timeArray = morningTimeSlot + afternoonTimeSlot + eveningTimeSlot
         return timeArray
     }
     

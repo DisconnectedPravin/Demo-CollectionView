@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Crittercism
 
 class ViewController: UIViewController {
 
@@ -25,8 +24,6 @@ class ViewController: UIViewController {
     
     @IBAction func bookEventButtonPressed()
     {
-        
-        Crittercism.leaveBreadcrumb("EventBooking-ButtonPressed")
         let storyBoard : UIStoryboard = UIStoryboard(name: "EventBooking", bundle:nil)
         let eventDetail = storyBoard.instantiateViewController(withIdentifier: "EventBookingSB") as! EventBookingViewController
         self.navigationController?.pushViewController(eventDetail, animated: true)
@@ -34,7 +31,6 @@ class ViewController: UIViewController {
     
     @IBAction func selectTypeOfEventButtonPressed()
     {
-        Crittercism.leaveBreadcrumb("EventType-ButtonPressed")
         let storyBoard : UIStoryboard = UIStoryboard(name: "EventType", bundle:nil)
         let eventType = storyBoard.instantiateViewController(withIdentifier: "EventTypeSB") as! EventTypeViewController
         self.navigationController?.pushViewController(eventType, animated: true)
