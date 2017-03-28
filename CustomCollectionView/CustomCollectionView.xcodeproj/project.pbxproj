@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD57002E1E8A5D1E00E70909 /* CascadeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5700291E8A5D1E00E70909 /* CascadeCollectionView.swift */; };
-		CD57002F1E8A5D1E00E70909 /* CascadeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57002A1E8A5D1E00E70909 /* CascadeCollectionViewCell.swift */; };
-		CD5700301E8A5D1E00E70909 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57002B1E8A5D1E00E70909 /* HeaderCollectionViewCell.swift */; };
-		CD5700311E8A5D1E00E70909 /* RCRoundedInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57002C1E8A5D1E00E70909 /* RCRoundedInfoCell.swift */; };
-		CD5700321E8A5D1E00E70909 /* RCRoundedInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD57002D1E8A5D1E00E70909 /* RCRoundedInfoCell.xib */; };
 		CDA7E1481E83C0030095AD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E1471E83C0030095AD65 /* AppDelegate.swift */; };
 		CDA7E14A1E83C0030095AD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E1491E83C0030095AD65 /* ViewController.swift */; };
 		CDA7E14D1E83C0030095AD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA7E14B1E83C0030095AD65 /* Main.storyboard */; };
@@ -20,11 +15,16 @@
 		CDA7E15D1E83C0030095AD65 /* CustomCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E15C1E83C0030095AD65 /* CustomCollectionViewTests.swift */; };
 		CDA7E1701E83D8AD0095AD65 /* EventBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E16F1E83D8AD0095AD65 /* EventBookingViewController.swift */; };
 		CDA7E1721E83D8B90095AD65 /* EventBooking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA7E1711E83D8B90095AD65 /* EventBooking.storyboard */; };
-		CDA7E17D1E83E18E0095AD65 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E17C1E83E18E0095AD65 /* UIColor.swift */; };
-		CDA7E17F1E83E81A0095AD65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E17E1E83E81A0095AD65 /* Constants.swift */; };
-		CDA7E1811E83E9590095AD65 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E1801E83E9590095AD65 /* DataHelper.swift */; };
 		CDA7E1831E8538270095AD65 /* EventTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E1821E8538270095AD65 /* EventTypeViewController.swift */; };
 		CDA7E1851E8538D70095AD65 /* EventType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA7E1841E8538D70095AD65 /* EventType.storyboard */; };
+		CDC7BCBB1E8A66EC006CA95D /* CascadeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7BCB31E8A66EC006CA95D /* CascadeCollectionView.swift */; };
+		CDC7BCBC1E8A66EC006CA95D /* CascadeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7BCB41E8A66EC006CA95D /* CascadeCollectionViewCell.swift */; };
+		CDC7BCBD1E8A66EC006CA95D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7BCB51E8A66EC006CA95D /* Constants.swift */; };
+		CDC7BCBE1E8A66EC006CA95D /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7BCB61E8A66EC006CA95D /* DataHelper.swift */; };
+		CDC7BCBF1E8A66EC006CA95D /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7BCB71E8A66EC006CA95D /* HeaderCollectionViewCell.swift */; };
+		CDC7BCC01E8A66EC006CA95D /* RCRoundedInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7BCB81E8A66EC006CA95D /* RCRoundedInfoCell.swift */; };
+		CDC7BCC11E8A66EC006CA95D /* RCRoundedInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC7BCB91E8A66EC006CA95D /* RCRoundedInfoCell.xib */; };
+		CDC7BCC21E8A66EC006CA95D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7BCBA1E8A66EC006CA95D /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD5700291E8A5D1E00E70909 /* CascadeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadeCollectionView.swift; sourceTree = "<group>"; };
-		CD57002A1E8A5D1E00E70909 /* CascadeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadeCollectionViewCell.swift; sourceTree = "<group>"; };
-		CD57002B1E8A5D1E00E70909 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
-		CD57002C1E8A5D1E00E70909 /* RCRoundedInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCRoundedInfoCell.swift; sourceTree = "<group>"; };
-		CD57002D1E8A5D1E00E70909 /* RCRoundedInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCRoundedInfoCell.xib; sourceTree = "<group>"; };
 		CDA7E1441E83C0030095AD65 /* CustomCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA7E1471E83C0030095AD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDA7E1491E83C0030095AD65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,11 +50,16 @@
 		CDA7E15E1E83C0030095AD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDA7E16F1E83D8AD0095AD65 /* EventBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBookingViewController.swift; sourceTree = "<group>"; };
 		CDA7E1711E83D8B90095AD65 /* EventBooking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventBooking.storyboard; sourceTree = "<group>"; };
-		CDA7E17C1E83E18E0095AD65 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		CDA7E17E1E83E81A0095AD65 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		CDA7E1801E83E9590095AD65 /* DataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
 		CDA7E1821E8538270095AD65 /* EventTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTypeViewController.swift; sourceTree = "<group>"; };
 		CDA7E1841E8538D70095AD65 /* EventType.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventType.storyboard; sourceTree = "<group>"; };
+		CDC7BCB31E8A66EC006CA95D /* CascadeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadeCollectionView.swift; sourceTree = "<group>"; };
+		CDC7BCB41E8A66EC006CA95D /* CascadeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CDC7BCB51E8A66EC006CA95D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CDC7BCB61E8A66EC006CA95D /* DataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		CDC7BCB71E8A66EC006CA95D /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		CDC7BCB81E8A66EC006CA95D /* RCRoundedInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCRoundedInfoCell.swift; sourceTree = "<group>"; };
+		CDC7BCB91E8A66EC006CA95D /* RCRoundedInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCRoundedInfoCell.xib; sourceTree = "<group>"; };
+		CDC7BCBA1E8A66EC006CA95D /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,18 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD5700281E8A5D1E00E70909 /* CustomView */ = {
-			isa = PBXGroup;
-			children = (
-				CD5700291E8A5D1E00E70909 /* CascadeCollectionView.swift */,
-				CD57002A1E8A5D1E00E70909 /* CascadeCollectionViewCell.swift */,
-				CD57002B1E8A5D1E00E70909 /* HeaderCollectionViewCell.swift */,
-				CD57002C1E8A5D1E00E70909 /* RCRoundedInfoCell.swift */,
-				CD57002D1E8A5D1E00E70909 /* RCRoundedInfoCell.xib */,
-			);
-			path = CustomView;
-			sourceTree = "<group>";
-		};
 		CDA7E13B1E83C0030095AD65 = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +103,7 @@
 			children = (
 				CDA7E1471E83C0030095AD65 /* AppDelegate.swift */,
 				CDA7E1491E83C0030095AD65 /* ViewController.swift */,
-				CD5700281E8A5D1E00E70909 /* CustomView */,
-				CDA7E16A1E83C18F0095AD65 /* Utility */,
+				CDC7BCB21E8A66EC006CA95D /* CustomView */,
 				CDA7E1671E83C1050095AD65 /* Controller */,
 				CDA7E14B1E83C0030095AD65 /* Main.storyboard */,
 				CDA7E14E1E83C0030095AD65 /* Assets.xcassets */,
@@ -154,14 +141,19 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		CDA7E16A1E83C18F0095AD65 /* Utility */ = {
+		CDC7BCB21E8A66EC006CA95D /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				CDA7E17C1E83E18E0095AD65 /* UIColor.swift */,
-				CDA7E17E1E83E81A0095AD65 /* Constants.swift */,
-				CDA7E1801E83E9590095AD65 /* DataHelper.swift */,
+				CDC7BCB31E8A66EC006CA95D /* CascadeCollectionView.swift */,
+				CDC7BCB41E8A66EC006CA95D /* CascadeCollectionViewCell.swift */,
+				CDC7BCB51E8A66EC006CA95D /* Constants.swift */,
+				CDC7BCB61E8A66EC006CA95D /* DataHelper.swift */,
+				CDC7BCB71E8A66EC006CA95D /* HeaderCollectionViewCell.swift */,
+				CDC7BCB81E8A66EC006CA95D /* RCRoundedInfoCell.swift */,
+				CDC7BCB91E8A66EC006CA95D /* RCRoundedInfoCell.xib */,
+				CDC7BCBA1E8A66EC006CA95D /* UIColor.swift */,
 			);
-			path = Utility;
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +242,7 @@
 			files = (
 				CDA7E1521E83C0030095AD65 /* LaunchScreen.storyboard in Resources */,
 				CDA7E1721E83D8B90095AD65 /* EventBooking.storyboard in Resources */,
-				CD5700321E8A5D1E00E70909 /* RCRoundedInfoCell.xib in Resources */,
+				CDC7BCC11E8A66EC006CA95D /* RCRoundedInfoCell.xib in Resources */,
 				CDA7E14F1E83C0030095AD65 /* Assets.xcassets in Resources */,
 				CDA7E1851E8538D70095AD65 /* EventType.storyboard in Resources */,
 				CDA7E14D1E83C0030095AD65 /* Main.storyboard in Resources */,
@@ -271,17 +263,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC7BCBF1E8A66EC006CA95D /* HeaderCollectionViewCell.swift in Sources */,
 				CDA7E14A1E83C0030095AD65 /* ViewController.swift in Sources */,
-				CD5700311E8A5D1E00E70909 /* RCRoundedInfoCell.swift in Sources */,
-				CD57002E1E8A5D1E00E70909 /* CascadeCollectionView.swift in Sources */,
+				CDC7BCBC1E8A66EC006CA95D /* CascadeCollectionViewCell.swift in Sources */,
+				CDC7BCBB1E8A66EC006CA95D /* CascadeCollectionView.swift in Sources */,
 				CDA7E1831E8538270095AD65 /* EventTypeViewController.swift in Sources */,
+				CDC7BCBD1E8A66EC006CA95D /* Constants.swift in Sources */,
+				CDC7BCC01E8A66EC006CA95D /* RCRoundedInfoCell.swift in Sources */,
+				CDC7BCC21E8A66EC006CA95D /* UIColor.swift in Sources */,
+				CDC7BCBE1E8A66EC006CA95D /* DataHelper.swift in Sources */,
 				CDA7E1701E83D8AD0095AD65 /* EventBookingViewController.swift in Sources */,
-				CDA7E17D1E83E18E0095AD65 /* UIColor.swift in Sources */,
 				CDA7E1481E83C0030095AD65 /* AppDelegate.swift in Sources */,
-				CDA7E17F1E83E81A0095AD65 /* Constants.swift in Sources */,
-				CD5700301E8A5D1E00E70909 /* HeaderCollectionViewCell.swift in Sources */,
-				CD57002F1E8A5D1E00E70909 /* CascadeCollectionViewCell.swift in Sources */,
-				CDA7E1811E83E9590095AD65 /* DataHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/DisconnectedPravin/Demo-CollectionView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'CustomView/*'
+  s.source_files = 'CustomCollectionView/CustomView/*'
   s.requires_arc = true
 
 end
