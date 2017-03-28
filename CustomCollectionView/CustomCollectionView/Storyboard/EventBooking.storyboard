@@ -50,9 +50,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kx6-Ja-LLS">
-                                                    <rect key="frame" x="8" y="8" width="46" height="30"/>
+                                                    <rect key="frame" x="8" y="8" width="40" height="30"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="46" id="5q7-We-etK"/>
+                                                        <constraint firstAttribute="width" constant="40" id="5q7-We-etK"/>
                                                         <constraint firstAttribute="height" constant="30" id="JS6-BQ-q6Q"/>
                                                     </constraints>
                                                     <state key="normal" image="BackButton"/>
@@ -61,10 +61,10 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgd-pB-mRZ">
-                                                    <rect key="frame" x="277" y="8" width="46" height="30"/>
+                                                    <rect key="frame" x="283" y="8" width="40" height="40"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="6Tj-YC-yUQ"/>
-                                                        <constraint firstAttribute="width" constant="46" id="MNh-Ri-5kH"/>
+                                                        <constraint firstAttribute="height" constant="40" id="6Tj-YC-yUQ"/>
+                                                        <constraint firstAttribute="width" constant="40" id="MNh-Ri-5kH"/>
                                                     </constraints>
                                                     <state key="normal" image="CloseButton"/>
                                                     <connections>
@@ -140,7 +140,7 @@
                                 </connections>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbR-Ym-xhz">
-                                <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                                <rect key="frame" x="-14" y="597" width="403" height="70"/>
                                 <color key="backgroundColor" red="0.23641200100061571" green="0.34564883049820461" blue="0.95049971342086792" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="pIV-AN-eBu"/>
@@ -154,11 +154,10 @@
                         <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="TVm-Q6-9fl" firstAttribute="top" secondItem="mwu-PV-gpo" secondAttribute="bottom" constant="-20" id="Dik-uZ-z0w"/>
-                            <constraint firstItem="cbR-Ym-xhz" firstAttribute="width" secondItem="hiT-p8-Z9D" secondAttribute="width" id="MA2-h7-tG1"/>
                             <constraint firstItem="any-TP-dZT" firstAttribute="top" secondItem="cbR-Ym-xhz" secondAttribute="bottom" id="Phb-NI-OPd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cbR-Ym-xhz" secondAttribute="trailing" constant="-30" id="aP0-T8-BOa"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TVm-Q6-9fl" secondAttribute="trailing" id="dcb-AD-Gey"/>
-                            <constraint firstItem="cbR-Ym-xhz" firstAttribute="leading" secondItem="hiT-p8-Z9D" secondAttribute="leadingMargin" constant="-16" id="gUo-hL-TZR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cbR-Ym-xhz" secondAttribute="trailing" constant="-16" id="msq-3S-gHU"/>
+                            <constraint firstItem="cbR-Ym-xhz" firstAttribute="leading" secondItem="hiT-p8-Z9D" secondAttribute="leadingMargin" constant="-30" id="gUo-hL-TZR"/>
                             <constraint firstItem="cbR-Ym-xhz" firstAttribute="top" secondItem="TVm-Q6-9fl" secondAttribute="bottom" constant="10" id="xkS-BO-kyo"/>
                             <constraint firstItem="TVm-Q6-9fl" firstAttribute="leading" secondItem="hiT-p8-Z9D" secondAttribute="leadingMargin" id="zLk-dR-dbU"/>
                         </constraints>
@@ -176,6 +175,6 @@
     </scenes>
     <resources>
         <image name="BackButton" width="39" height="30"/>
-        <image name="CloseButton" width="44" height="44"/>
+        <image name="CloseButton" width="40" height="40"/>
     </resources>
 </document>
