@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		230D3CAFDE1DB8F1F1C2CDDD /* Pods_CustomCollectionViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53449F868C151E3EDA10B298 /* Pods_CustomCollectionViewTests.framework */; };
 		2355A396B9FBBE4B5B90007C /* Pods_CustomCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1857B164C43F33FE9F27746 /* Pods_CustomCollectionView.framework */; };
+		CD5700231E8A594E00E70909 /* CascadeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57001E1E8A594E00E70909 /* CascadeCollectionView.swift */; };
+		CD5700241E8A594E00E70909 /* CascadeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57001F1E8A594E00E70909 /* CascadeCollectionViewCell.swift */; };
+		CD5700251E8A594E00E70909 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5700201E8A594E00E70909 /* HeaderCollectionViewCell.swift */; };
+		CD5700261E8A594E00E70909 /* RCRoundedInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5700211E8A594E00E70909 /* RCRoundedInfoCell.swift */; };
+		CD5700271E8A594E00E70909 /* RCRoundedInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5700221E8A594E00E70909 /* RCRoundedInfoCell.xib */; };
 		CDA7E1481E83C0030095AD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E1471E83C0030095AD65 /* AppDelegate.swift */; };
 		CDA7E14A1E83C0030095AD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E1491E83C0030095AD65 /* ViewController.swift */; };
 		CDA7E14D1E83C0030095AD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA7E14B1E83C0030095AD65 /* Main.storyboard */; };
 		CDA7E14F1E83C0030095AD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA7E14E1E83C0030095AD65 /* Assets.xcassets */; };
 		CDA7E1521E83C0030095AD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA7E1501E83C0030095AD65 /* LaunchScreen.storyboard */; };
 		CDA7E15D1E83C0030095AD65 /* CustomCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E15C1E83C0030095AD65 /* CustomCollectionViewTests.swift */; };
-		CDA7E16C1E83C1990095AD65 /* CascadeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E16B1E83C1990095AD65 /* CascadeCollectionView.swift */; };
-		CDA7E16E1E83D1680095AD65 /* CascadeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E16D1E83D1680095AD65 /* CascadeCollectionViewCell.swift */; };
 		CDA7E1701E83D8AD0095AD65 /* EventBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E16F1E83D8AD0095AD65 /* EventBookingViewController.swift */; };
 		CDA7E1721E83D8B90095AD65 /* EventBooking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA7E1711E83D8B90095AD65 /* EventBooking.storyboard */; };
-		CDA7E1781E83DB490095AD65 /* RCRoundedInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E1761E83DB490095AD65 /* RCRoundedInfoCell.swift */; };
-		CDA7E1791E83DB490095AD65 /* RCRoundedInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA7E1771E83DB490095AD65 /* RCRoundedInfoCell.xib */; };
-		CDA7E17B1E83DB810095AD65 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E17A1E83DB810095AD65 /* HeaderCollectionViewCell.swift */; };
 		CDA7E17D1E83E18E0095AD65 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E17C1E83E18E0095AD65 /* UIColor.swift */; };
 		CDA7E17F1E83E81A0095AD65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E17E1E83E81A0095AD65 /* Constants.swift */; };
 		CDA7E1811E83E9590095AD65 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA7E1801E83E9590095AD65 /* DataHelper.swift */; };
@@ -46,6 +46,11 @@
 		BF60401198EEACB31CBA7428 /* Pods-CustomCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomCollectionView/Pods-CustomCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 		C65E3824B7F677E15A944BD9 /* Pods-CustomCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomCollectionView/Pods-CustomCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 		CCF384EC4333E53E577F02ED /* Pods-CustomCollectionViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCollectionViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomCollectionViewTests/Pods-CustomCollectionViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD57001E1E8A594E00E70909 /* CascadeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadeCollectionView.swift; sourceTree = "<group>"; };
+		CD57001F1E8A594E00E70909 /* CascadeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD5700201E8A594E00E70909 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD5700211E8A594E00E70909 /* RCRoundedInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCRoundedInfoCell.swift; sourceTree = "<group>"; };
+		CD5700221E8A594E00E70909 /* RCRoundedInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCRoundedInfoCell.xib; sourceTree = "<group>"; };
 		CDA7E1441E83C0030095AD65 /* CustomCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA7E1471E83C0030095AD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDA7E1491E83C0030095AD65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,13 +61,8 @@
 		CDA7E1581E83C0030095AD65 /* CustomCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA7E15C1E83C0030095AD65 /* CustomCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewTests.swift; sourceTree = "<group>"; };
 		CDA7E15E1E83C0030095AD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDA7E16B1E83C1990095AD65 /* CascadeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadeCollectionView.swift; sourceTree = "<group>"; };
-		CDA7E16D1E83D1680095AD65 /* CascadeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CascadeCollectionViewCell.swift; sourceTree = "<group>"; };
 		CDA7E16F1E83D8AD0095AD65 /* EventBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBookingViewController.swift; sourceTree = "<group>"; };
 		CDA7E1711E83D8B90095AD65 /* EventBooking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventBooking.storyboard; sourceTree = "<group>"; };
-		CDA7E1761E83DB490095AD65 /* RCRoundedInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCRoundedInfoCell.swift; sourceTree = "<group>"; };
-		CDA7E1771E83DB490095AD65 /* RCRoundedInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCRoundedInfoCell.xib; sourceTree = "<group>"; };
-		CDA7E17A1E83DB810095AD65 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
 		CDA7E17C1E83E18E0095AD65 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		CDA7E17E1E83E81A0095AD65 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CDA7E1801E83E9590095AD65 /* DataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
@@ -110,6 +110,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CD57001D1E8A594E00E70909 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CD57001E1E8A594E00E70909 /* CascadeCollectionView.swift */,
+				CD57001F1E8A594E00E70909 /* CascadeCollectionViewCell.swift */,
+				CD5700201E8A594E00E70909 /* HeaderCollectionViewCell.swift */,
+				CD5700211E8A594E00E70909 /* RCRoundedInfoCell.swift */,
+				CD5700221E8A594E00E70909 /* RCRoundedInfoCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		CDA7E13B1E83C0030095AD65 = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +147,7 @@
 			children = (
 				CDA7E1471E83C0030095AD65 /* AppDelegate.swift */,
 				CDA7E1491E83C0030095AD65 /* ViewController.swift */,
-				CDA7E1691E83C18F0095AD65 /* CustomView */,
+				CD57001D1E8A594E00E70909 /* CustomView */,
 				CDA7E16A1E83C18F0095AD65 /* Utility */,
 				CDA7E1671E83C1050095AD65 /* Controller */,
 				CDA7E14B1E83C0030095AD65 /* Main.storyboard */,
@@ -174,15 +186,6 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		CDA7E1691E83C18F0095AD65 /* CustomView */ = {
-			isa = PBXGroup;
-			children = (
-				CDA7E1751E83DA0F0095AD65 /* Cell */,
-				CDA7E16B1E83C1990095AD65 /* CascadeCollectionView.swift */,
-			);
-			path = CustomView;
-			sourceTree = "<group>";
-		};
 		CDA7E16A1E83C18F0095AD65 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,17 +194,6 @@
 				CDA7E1801E83E9590095AD65 /* DataHelper.swift */,
 			);
 			path = Utility;
-			sourceTree = "<group>";
-		};
-		CDA7E1751E83DA0F0095AD65 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				CDA7E1761E83DB490095AD65 /* RCRoundedInfoCell.swift */,
-				CDA7E1771E83DB490095AD65 /* RCRoundedInfoCell.xib */,
-				CDA7E17A1E83DB810095AD65 /* HeaderCollectionViewCell.swift */,
-				CDA7E16D1E83D1680095AD65 /* CascadeCollectionViewCell.swift */,
-			);
-			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,10 +289,10 @@
 			files = (
 				CDA7E1521E83C0030095AD65 /* LaunchScreen.storyboard in Resources */,
 				CDA7E1721E83D8B90095AD65 /* EventBooking.storyboard in Resources */,
+				CD5700271E8A594E00E70909 /* RCRoundedInfoCell.xib in Resources */,
 				CDA7E14F1E83C0030095AD65 /* Assets.xcassets in Resources */,
 				CDA7E1851E8538D70095AD65 /* EventType.storyboard in Resources */,
 				CDA7E14D1E83C0030095AD65 /* Main.storyboard in Resources */,
-				CDA7E1791E83DB490095AD65 /* RCRoundedInfoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,16 +416,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA7E1781E83DB490095AD65 /* RCRoundedInfoCell.swift in Sources */,
-				CDA7E17B1E83DB810095AD65 /* HeaderCollectionViewCell.swift in Sources */,
 				CDA7E14A1E83C0030095AD65 /* ViewController.swift in Sources */,
+				CD5700261E8A594E00E70909 /* RCRoundedInfoCell.swift in Sources */,
+				CD5700231E8A594E00E70909 /* CascadeCollectionView.swift in Sources */,
 				CDA7E1831E8538270095AD65 /* EventTypeViewController.swift in Sources */,
-				CDA7E16E1E83D1680095AD65 /* CascadeCollectionViewCell.swift in Sources */,
 				CDA7E1701E83D8AD0095AD65 /* EventBookingViewController.swift in Sources */,
 				CDA7E17D1E83E18E0095AD65 /* UIColor.swift in Sources */,
-				CDA7E16C1E83C1990095AD65 /* CascadeCollectionView.swift in Sources */,
 				CDA7E1481E83C0030095AD65 /* AppDelegate.swift in Sources */,
 				CDA7E17F1E83E81A0095AD65 /* Constants.swift in Sources */,
+				CD5700251E8A594E00E70909 /* HeaderCollectionViewCell.swift in Sources */,
+				CD5700241E8A594E00E70909 /* CascadeCollectionViewCell.swift in Sources */,
 				CDA7E1811E83E9590095AD65 /* DataHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
